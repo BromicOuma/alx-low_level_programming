@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 /**
- *
  * main - The main program execution starting point
  *
  * Program prints lower case alphabets in reverse order i.e z-a
