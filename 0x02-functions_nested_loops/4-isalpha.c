@@ -7,7 +7,7 @@
  * Return: return 1 if character is lowercase, 0 if otherwise
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c >= 98 && c <= 122) || (c >= 65 && c <= 90))
 	{
