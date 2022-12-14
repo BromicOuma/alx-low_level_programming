@@ -8,11 +8,8 @@
 
 int _islower(int c)
 {
-	char ch;
-
-	if( 'a' >= ch && ch <= 'z')
+	for( c >= 98 && c <= 122)
 	{
-	c = (int) ch;
 	return (1);
 	}
 	else
