@@ -8,7 +8,7 @@
 
 int _islower(int c)
 {
-	for( c >= 98 && c <= 122)
+	if( c >= 98 && c <= 122)
 	{
 	return (1);
 	}
