@@ -1,4 +1,5 @@
-#incude "main.h"
+#include <ctype.h>
+#include "main.h"
 
 /**
  * _isdigit - input digit i between 0 to 9
@@ -13,5 +14,6 @@ int _isdigit(int c)
 	{
 	return (1);
 	}
+	else
 	return (0);
 }
