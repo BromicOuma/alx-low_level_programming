@@ -11,7 +11,7 @@
  * Return: the pointer to thereplaced character
  */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
