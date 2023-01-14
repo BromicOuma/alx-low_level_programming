@@ -4,7 +4,7 @@
  * main - function taking commandline parameters
  *
  * @argc: count of arguments
- * @argv: pointer to array of characters
+ * @argv: pointer to array of charactersss
  *
  */
 
