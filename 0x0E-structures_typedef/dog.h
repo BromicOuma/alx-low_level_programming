@@ -5,7 +5,7 @@
  * struct dog - type dog with this members
  * @name: name of dog
  * @age: age of dog
- * @type: dog breed
+ * @owner: dog breed
  */
 struct dog
 {
