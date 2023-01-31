@@ -8,11 +8,11 @@
  */
 size_t print_list(const list_t *h)
 {
-	unsigned counter = 0;
+	unsigned int counter = 0;
 
 	while (h != NULL)
 	{
-	h = h -> next;
+	h = h->next;
 	counter++;
 	}
 	return (counter);
