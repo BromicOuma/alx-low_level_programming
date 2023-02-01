@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include "lists.h"
+#include <stdlib.h>
+
+/**
+ * print_listint - printall elements of listint
+ * @h: the pointer to the structure
+ * Return: returns the size of the list
+ */
+
+size_t listint_len(const listint_t *h)
+{
+	const listint_t *current;
+	unsigned int counter;
+
+	if (h == NULL)
+	{
+		printf("The list is empty\n");
+		exit(0);
+	}
+	current = h;
+	counter = 0;
+	while (current != NULL)
+	{
+		current = current->next;
+		counter++;
+	}
+		return (counter);
+}
