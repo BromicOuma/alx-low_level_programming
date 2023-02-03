@@ -1,5 +1,12 @@
 #include "lists.h"
 
+
+/**
+ * reverse_listint - reverses linked list
+ * @head: pointer to the current position
+ * Return: return the address of new head
+ */
+
 listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *nxt, *prev;
@@ -17,6 +24,6 @@ listint_t *reverse_listint(listint_t **head)
 		prev = *head;
 		*head = nxt;
 	}
-	(*head)->next=prev;
+	(*head)->next = prev;
 	return (*head);
 }
